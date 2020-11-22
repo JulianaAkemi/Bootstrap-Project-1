@@ -44,26 +44,20 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="headline-section jumbotron jumbotron-fluid">
+    <div class="headline-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -75,13 +69,16 @@
               magni rem, recusandae ab aut odit excepturi praesentium, hic totam
               et consequuntur quasi nihil explicabo dolore.
             </p>
+
             <button
+              id="btn-headline"
               type="button"
               class="btn btn-success btn-lg download-button"
             >
               <i class="fab fa-google-play"> </i> Download
             </button>
             <button
+              id="btn-headline"
               type="button"
               class="btn btn-outline-success btn-lg download-button"
             >
@@ -221,7 +218,9 @@
                 Unlimited Messages Per Day <br />
                 Unlimited App Usage <br /><br />
               </p>
-              <button type="button" class="btn btn-block btn-success">Sign Up</button>
+              <button type="button" class="btn btn-block btn-success">
+                Sign Up
+              </button>
             </div>
           </div>
         </div>
@@ -249,16 +248,46 @@
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <div class="row">
+        <div class="col">
+          <h3 id="cta-text">Find All You and Your Dog Need in Life Today.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button class="btn btn-cta btn-success btn-lg download-button" type="button">
+            <i class="fab fa-google-play"> </i> Download
+          </button>
+          <button
+            class="btn btn-cta btn-outline-success btn-lg download-button"
+            type="button"
+          >
+            <i class="fab fa-apple"> </i> Download
+          </button>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
+    
+        <footer id="footer">
+          <div class="row">
+            <div class="col">
+              <p>Contact Us!</p>
+              <i class="footer-icon fab fa-twitter"></i>
+              <i class="footer-icon fab fa-facebook-f"></i>
+              <i class="footer-icon fab fa-instagram"></i>
+              <i class="footer-icon fas fa-envelope"></i>
+            </div>  
+          </div>      
+          <div class="row">
+            <div class="col">
+              <small>© Copyright 2020 Juliana Akemi</small>
+            </div>  
+          </div>     
+        </footer>
+      
 
-    <footer id="footer">
-      <p>© Copyright 2018 TinDog</p>
-    </footer>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
     <script

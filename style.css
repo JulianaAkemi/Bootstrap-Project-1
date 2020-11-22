@@ -3,7 +3,7 @@ body {
 }
 
 
-/* Navigation Bar*/
+/* Navigation Bar         /////////////////////////*/
 #nav-container {
     padding: 1%;
 }
@@ -21,9 +21,11 @@ body {
     font-size: 1.2rem;
 }
 
-/* Title */
-.jumbotron {
-    margin: 0;
+/* Title-Headline      ////////////////////////////////*/
+.headline-section {
+    background-color:#f8f9fa ;
+    padding: 7%;
+
 }
 
 #headline {
@@ -43,12 +45,12 @@ body {
     margin-top: 5%;
 }
 
-/* Download Buttons */
-.download-button {
+/* Download Buttons /////////////////////////////////*/
+#btn-headline {
     margin: 5% 5% 5% 0;
 }
 
-/* Features Section */
+/* Features Section     //////////////////////////*/
 #features {
     background-color: white ;
     text-align: center;
@@ -71,7 +73,7 @@ h3 {
     padding: 5%;
 }
 
-/* Testimonials Section */
+/* Testimonials Section     ///////////////////////*/
 #testimonials {
     text-align: center;
     background-color: #6c757d;
@@ -94,7 +96,7 @@ h2 {
     margin: 20px;
 }
 
-/* Press Section */
+/* Press Section        ///////////////////////////*/
 #press {
     text-align: center;
     background-color: #6c757d;
@@ -106,7 +108,7 @@ h2 {
     margin: 20px 20px 50px;
 }
 
-/* Pricing Section*/
+/* Pricing Section     ///////////////////////////*/
 
 #pricing {
     text-align: center;
@@ -125,13 +127,52 @@ h2 {
     margin: 3%;
 }
 
+/* CALL TO ACTION SECTION    //////////////////////*/
+
+#cta {
+    background-color: #f8f9fa ;
+    text-align: center;
+    padding: 5%;
+}
+
+#cta-text {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 7% 7% 0 7%;
+}
+
+.btn-cta {
+    margin: 3%;
+    margin-bottom: 7%;
+}
+
+
+
+/*Footer      /////////////////////////////////////////*/
+#footer {
+    padding: 7%;
+    color: white;
+    text-align: center;
+    background-color: #343a40 ;
+}
+
+.footer-icon {
+    margin: 1%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+
 @media (max-width: 1028px) {
     #headline, .headline-text {
         text-align: center;
     }
 
-    .btn {
+    #btn-headline {
         
+        margin: 5%;
     }
 
     .title-image {
@@ -141,4 +182,8 @@ h2 {
        position: static;
        margin-left: 30%;
     }
+}
+
+.footer-icon {
+    font-size: 1rem;
 }
